@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code & Connect - Our Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css\portfolio.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Code & Connect</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home me-2"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><i class="fas fa-info-circle me-2"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html"><i class="fas fa-cogs me-2"></i>Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html"><i class="fas fa-briefcase me-2"></i>Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fas fa-envelope me-2"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <ul>
+      <li><a href="index.html" title="Home"><i class="fas fa-home"></i></a></li>
+      <li><a href="about.html" title="About"><i class="fas fa-info-circle"></i></a></li>
+      <li><a href="services.html" title="Services"><i class="fas fa-cogs"></i></a></li>
+      <li><a href="portfolio.html" title="Portfolio"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="contact.html" title="Contact"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="portfolio-hero-section">
+    <div class="animated-background"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mb-3 fade-in">Our Portfolio</h1>
+          <div class="section-divider mx-auto"></div>
+          <p class="mb-4 fade-in-delay portfolio-subtitle">Explore our innovative solutions and success stories</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Filter Section -->
+  <section class="portfolio-filter-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="filter-container">
+            <input type="radio" name="filter" id="all" checked>
+            <input type="radio" name="filter" id="web">
+            <input type="radio" name="filter" id="mobile">
+            <input type="radio" name="filter" id="ai">
+            <input type="radio" name="filter" id="cloud">
+            
+            <div class="filter-buttons">
+              <label for="all" class="filter-btn">All Projects</label>
+              <label for="web" class="filter-btn">Web Development</label>
+              <label for="mobile" class="filter-btn">Mobile Apps</label>
+              <label for="ai" class="filter-btn">AI & Data</label>
+              <label for="cloud" class="filter-btn">Cloud Solutions</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio-grid-section">
+    <div class="container">
+      <!-- Portfolio Notice -->
+      <div class="row mb-5">
+        <div class="col-lg-12">
+          <div class="portfolio-notice">
+            <h4><i class="fas fa-info-circle me-2"></i>Portfolio Information</h4>
+            <p>Below are some of our featured projects. Due to confidentiality agreements and NDAs with our clients, many of our projects cannot be publicly showcased. Please <a href="contact.html">contact us</a> for more information about our full range of work.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item ai-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="images\429605601-cca515a9-e36b-4aaf-af63-40b145e7441e.png" alt="Personal Portfolio" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Portfolio</h3>
+                  <p>Personal Portfolio</p>
+                  <a href="https://ejmdevportfolio.netlify.app/" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Portfolio</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item cloud-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Security System" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Quantum Security System</h3>
+                  <p>Cloud Infrastructure</p>
+                  <a href="https://github.com/Student1User class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Cloud</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+       
+        
+        <!-- Project 4 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80" alt="E-Commerce Platform" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>E-Commerce Platform</h3>
+                  <p>Web Development</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Web</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 5 (Under Development) -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item mobile-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Health Monitoring App" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Health Monitoring App</h3>
+                  <p>Mobile Development</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                  <div class="development-badge">In Development</div>
+                </div>
+              </div>
+              <div class="tech-badge">Mobile</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 6 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item cloud-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1168&q=80" alt="Cloud Migration Solution" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Cloud Migration Solution</h3>
+                  <p>Cloud Infrastructure</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Cloud</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 7 (Under Development) -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Financial Dashboard" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Financial Dashboard</h3>
+                  <p>Web Development</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Web</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 8 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item mobile-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Delivery Tracking App" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Delivery Tracking App</h3>
+                  <p>Mobile Development</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">Mobile</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 9 -->
+        <div class="col-lg-4 col-md-6 mb-4 portfolio-item ai-item">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Predictive Maintenance System" class="img-fluid">
+              <div class="portfolio-overlay">
+                <div class="overlay-content">
+                  <h3>Predictive Maintenance System</h3>
+                  <p>Artificial Intelligence</p>
+                  <a href="https://github.com/Student1User" class="btn btn-light btn-sm">View Details</a>
+                </div>
+              </div>
+              <div class="tech-badge">AI</div>
+              <div class="development-badge">In Development</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Case Study Section - AFTER the portfolio grid -->
+  <section class="case-study-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title">Featured Case Study</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="section-description">A closer look at one of our most impactful projects</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Analytics Dashboard" class="img-fluid">
+            <div class="image-overlay">
+              <div class="overlay-content">
+                <h3>RetailNow AI Analytics</h3>
+                <p>Transforming retail decision-making</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="case-study-content">
+            <h3>RetailNow AI Analytics Dashboard</h3>
+            <div class="case-meta">
+              <span><i class="fas fa-calendar"></i> Completed: March 2023</span>
+              <span><i class="fas fa-tag"></i> Category: Artificial Intelligence</span>
+            </div>
+            <p>RetailNow, a leading retail chain with over 500 stores nationwide, faced challenges in analyzing customer behavior and optimizing inventory management across their locations.</p>
+            <p>Our team developed a custom AI-powered analytics dashboard that processes millions of data points in real-time, providing actionable insights for store managers and executives.</p>
+            <div class="case-results">
+              <div class="result-item">
+                <div class="result-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="result-content">
+                  <h4>60% Improvement</h4>
+                  <p>In prediction accuracy for inventory needs</p>
+                </div>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">
+                  <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="result-content">
+                  <h4>$2.4 Million</h4>
+                  <p>Annual savings in operational costs</p>
+                </div>
+              </div>
+              <div class="result-item">
+                <div class="result-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="result-content">
+                  <h4>32% Increase</h4>
+                  <p>In customer satisfaction scores</p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Logos Section -->
+  <section class="client-logos-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title">Trusted By</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="section-description">Companies that rely on our technology solutions</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-2 col-4 mb-4">
+          <div class="client-logo">
+            <img src="images\Gaussian Creative - Logo.png" alt="Client 1" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <div class="client-logo">
+            <img src="images\Plp logo.png" alt="Client 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <div class="client-logo">
+            <img src="images\download (1).jpeg" alt="Client 3" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <div class="client-logo">
+            <img src="images\cr.png" alt="Client 4" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <div class="client-logo">
+            <img src="images/default.png" alt="Client 5" class="img-fluid">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Process Section -->
+  <section class="project-process-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mb-5">
+          <h2 class="section-title">Our Project Process</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="section-description">How we turn your ideas into successful solutions</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-card">
+            <div class="process-icon">
+              <i class="fas fa-lightbulb"></i>
+              <div class="process-number">01</div>
+            </div>
+            <h3>Discovery</h3>
+            <p>We start by understanding your business goals, challenges, and requirements through in-depth consultations.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-card">
+            <div class="process-icon">
+              <i class="fas fa-pencil-ruler"></i>
+              <div class="process-number">02</div>
+            </div>
+            <h3>Planning & Design</h3>
+            <p>Our team creates detailed project plans and designs that align with your vision and technical requirements.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-card">
+            <div class="process-icon">
+              <i class="fas fa-code"></i>
+              <div class="process-number">03</div>
+            </div>
+            <h3>Development</h3>
+            <p>We build your solution using agile methodologies, with regular updates and transparent communication.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="process-card">
+            <div class="process-icon">
+              <i class="fas fa-rocket"></i>
+              <div class="process-number">04</div>
+            </div>
+            <h3>Launch & Support</h3>
+            <p>After thorough testing, we deploy your solution and provide ongoing maintenance and support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h2>Ready to Start Your Project?</h2>
+          <p>Let's discuss how we can help you achieve your technology goals</p>
+          <div class="cta-buttons mt-4">
+            <a href="contact.html" class="btn btn-primary btn-lg me-3">Contact Us</a>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Details Modals (CSS-only) -->
+  <!-- Project 1 Modal -->
+  <div class="project-modal" id="project1">
+    <div class="modal-content">
+      <a href="#" class="close-modal">&times;</a>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Analytics Dashboard" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-info">
+              <h2>AI Analytics Dashboard</h2>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar"></i> Completed: March 2023</span>
+                <span><i class="fas fa-tag"></i> Category: Artificial Intelligence</span>
+                <span><i class="fas fa-user"></i> Client: RetailNow</span>
+              </div>
+              <div class="project-description">
+                <h3>Project Overview</h3>
+                <p>We developed an AI-powered analytics dashboard for RetailNow, a leading retail chain with over 500 stores nationwide. The dashboard processes millions of data points in real-time, providing actionable insights for store managers and executives.</p>
+                
+                <h3>Challenges</h3>
+                <ul>
+                  <li>Processing and analyzing large volumes of customer data</li>
+                  <li>Creating intuitive visualizations for complex data patterns</li>
+                  <li>Ensuring real-time performance across multiple devices</li>
+                  <li>Integrating with existing retail management systems</li>
+                </ul>
+                
+                <h3>Solutions</h3>
+                <p>Our team implemented a scalable cloud architecture with machine learning algorithms that identify patterns and trends in customer behavior. The dashboard features customizable widgets, predictive analytics, and automated reporting capabilities.</p>
+                
+                <h3>Technologies Used</h3>
+                <div class="tech-tags">
+                  <span>Python</span>
+                  <span>TensorFlow</span>
+                  <span>React</span>
+                  <span>AWS</span>
+                  <span>GraphQL</span>
+                </div>
+                
+                <h3>Results</h3>
+                <p>The AI Analytics Dashboard has transformed RetailNow's decision-making process, resulting in a 60% improvement in prediction accuracy, $2.4 million in annual savings, and a 32% increase in customer satisfaction scores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Project 2 Modal -->
+  <div class="project-modal" id="project2">
+    <div class="modal-content">
+      <a href="#" class="close-modal">&times;</a>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Security System" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-info">
+              <h2>Quantum Security System</h2>
+              <div class="project-meta">
+                <span><i class="fas fa-calendar"></i> Completed: January 2023</span>
+                <span><i class="fas fa-tag"></i> Category: Cloud Infrastructure</span>
+                <span><i class="fas fa-user"></i> Client: SecureTech Inc.</span>
+              </div>
+              <div class="project-description">
+                <h3>Project Overview</h3>
+                <p>We developed a next-generation security system utilizing quantum computing principles to protect sensitive data for a major financial institution.</p>
+                
+                <h3>Technologies Used</h3>
+                <div class="tech-tags">
+                  <span>Quantum Computing</span>
+                  <span>AWS</span>
+                  <span>Encryption</span>
+                  <span>Blockchain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h4>Code & Connet</h4>
+          <p>"Transforming the digital landscape with innovative solutions that drive success."</p>
+      
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-home me-2"></i>Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle me-2"></i>About</a></li>
+            <li><a href="services.html"><i class="fas fa-cogs me-2"></i>Services</a></li>
+            <li><a href="portfolio.html"><i class="fas fa-briefcase me-2"></i>Portfolio</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope me-2"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-envelope"></i> magachi.emmanuel@students.jkuat.ac.ke            </li>
+            <li><i class="fas fa-phone"></i>  (+254) 796070811 / 791395400</li>
+            <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya 62000 - 00200</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+          <p class="copyright">© 2025 Code & Connect. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap CSS only (no JS) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</body>
+</html>
+  
