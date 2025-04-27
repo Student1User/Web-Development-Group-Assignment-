@@ -124,7 +124,7 @@ The website includes several pages, professional profiles, and image assets for 
 - https://github.com/Isaac-mutuma
 - https://github.com/manobantu
 - https://github.com/Q-TNess
-- Winnie Nya
+- https://github.com/WinnieMwangi-dot
 - https://github.com/Student1User
 
 *(Replace with your real names if necessary.)*
