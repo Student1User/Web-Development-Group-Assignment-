@@ -173,6 +173,7 @@ The website includes several pages, professional profiles, and image assets for 
 ## 📜 License
 
 This project is intended for **educational use only**.
+CHECK OT THE SITE HERE; https://webportfoliogroup.netlify.app/
 
 ---
 
