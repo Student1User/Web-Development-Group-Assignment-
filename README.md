@@ -146,7 +146,7 @@ The website includes several pages, professional profiles, and image assets for 
 
 
 | Home Page | About Page |
-|:---------:|:----------:|
+
 | ![image](https://github.com/user-attachments/assets/2730fe49-d2ff-4b5e-ba32-909976d17cd4)
 ) | ![image](https://github.com/user-attachments/assets/5b2a18f9-0e97-4833-beed-b483f3785166)
 ) |
